@@ -1,11 +1,12 @@
 import React, { Component } from 'react';
 import './App.css';
-import { Button } from 'semantic-ui-react'
+import Author from './js/components/author';
+
 class App extends Component {
   render() {
     return (
       <div className="App">
-<Button>Button</Button>
+      <Author />
       </div>
     );
   }
