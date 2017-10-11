@@ -3,3 +3,19 @@ body {
   padding: 0;
   font-family: sans-serif;
 }
+.software{
+  display: flex;
+  justify-content: center;
+  flex: 1;
+  width: 100%;
+}
+.container{
+  display: inline-grid;
+}
+table{
+  margin-bottom: 7em;
+}
+tr{
+  display: flex;
+  justify-content: space-evenly;
+}
