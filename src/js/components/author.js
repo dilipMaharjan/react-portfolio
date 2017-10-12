@@ -1,6 +1,6 @@
 
 import React from 'react';
-import { Image, Container, Header, Table, Icon, Segment } from 'semantic-ui-react';
+import { Image, Container, Header, Table, Icon, Segment, Sticky } from 'semantic-ui-react';
 import author from '../../images/author.jpg';
 
 const Author = () => (
@@ -26,9 +26,9 @@ const Author = () => (
       <Icon size='huge' color='blue' name='linkedin' />
       <Icon size='huge' color='blue' name='github' />
     </Container>
-    <Container textAlign='center'>
+    {/* <Container textAlign='center'>
       <Header><Icon color='blue' name='copyright' />{new Date().getFullYear()}</Header>
-    </Container>
+    </Container> */}
   </Container>
 )
 export default Author;
