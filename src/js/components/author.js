@@ -1,6 +1,6 @@
 
 import React from 'react';
-import { Image, Container, Header, Table, Icon, Segment, Sticky } from 'semantic-ui-react';
+import { Image, Container, Header, Table, Icon } from 'semantic-ui-react';
 import author from '../../images/author.jpg';
 
 const Author = () => (
