@@ -1,7 +1,7 @@
 {
   "name": "portfolio",
   "version": "0.1.0",
-  "homepage": " https://dilipmaharjan.github.io/my-portfolio/",
+  "homepage": " https://dilipMaharjan.github.io/my-portfolio/",
   "private": true,
   "dependencies": {
     "gh-pages": "^1.0.0",
