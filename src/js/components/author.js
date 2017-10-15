@@ -23,8 +23,8 @@ const Author = () => (
     </Table>
     <Container>
       <Header size='huge' color='blue'>Find me <Icon name='at' /></Header>
-      <Icon size='huge' color='blue' name='linkedin' />
-      <Icon size='huge' color='blue' name='github' />
+      <a href='https://www.linkedin.com/in/dilip-maharjan-44421b87'><Icon size='huge' color='blue' name='linkedin' /></a>
+      <a href='https://github.com/dilipmaharjan'><Icon size='huge' color='blue' name='github' /></a>
     </Container>
     {/* <Container textAlign='center'>
       <Header><Icon color='blue' name='copyright' />{new Date().getFullYear()}</Header>
