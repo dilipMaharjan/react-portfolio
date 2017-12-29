@@ -1,7 +1,10 @@
 
 import React from 'react';
-import { Image, Container, Header, Table, Icon } from 'semantic-ui-react';
+import { Image, Container, Header, Table, Icon, Divider, Menu, Sidebar, Button } from 'semantic-ui-react';
 import author from '../../images/author.jpg';
+import Project from './project';
+
+const square = { width: 175, height: 175 }
 
 const Author = () => (
   <Container fluid centered>
@@ -21,14 +24,13 @@ const Author = () => (
         </Table.Cell>
       </Table.Row>
     </Table>
-    <Container>
-      <Header size='huge' color='blue'>Find me <Icon name='at' /></Header>
-      <a href='https://www.linkedin.com/in/dilip-maharjan-44421b87'><Icon size='huge' color='blue' name='linkedin' /></a>
-      <a href='https://github.com/dilipmaharjan'><Icon size='huge' color='blue' name='github' /></a>
-    </Container>
-    {/* <Container textAlign='center'>
-      <Header><Icon color='blue' name='copyright' />{new Date().getFullYear()}</Header>
-    </Container> */}
+    <Header size='huge' color='blue'>Find me <Icon name='at' /></Header>
+    <a href='https://www.linkedin.com/in/dilip-maharjan-44421b87'><Icon size='huge' color='blue' name='linkedin' /></a>
+    <a href='https://github.com/dilipmaharjan'><Icon size='huge' color='blue' name='github' /></a>
+    <Header as="h1">Live Projects</Header>
+    <Project />
+    <Divider inverted />
+    <Header><Icon color='blue' name='copyright' />{new Date().getFullYear()}</Header>
   </Container>
 )
 export default Author;
