@@ -9,7 +9,7 @@ const Project = () => (
           Portfolio
       </Card.Header>
         <Card.Description>
-          It is a perosnal Portfolio web app created using react js.
+          It is a personal Portfolio web app created using react js.
       </Card.Description>
       </Card.Content>
     </Card>
