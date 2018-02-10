@@ -9,8 +9,13 @@ const Project = () => (
           Portfolio
       </Card.Header>
         <Card.Description>
-          It is a personal Portfolio web app created using react js.
-      </Card.Description>
+          <p>
+            <h3>
+              It is a personal Portfolio web app created using react js.
+              I am a desinger and developer of this app.
+            </h3>
+          </p>
+        </Card.Description>
       </Card.Content>
     </Card>
     </a>
@@ -21,7 +26,13 @@ const Project = () => (
             Chat App
       </Card.Header>
           <Card.Description>
-            It is a chat application created using express js.
+          <p>
+            <h3>
+              It is a chat application created using express js.
+              I am a backend and frontend developer and designer of this app.
+            </h3>
+          </p>
+           
       </Card.Description>
         </Card.Content>
       </Card>
@@ -33,7 +44,13 @@ const Project = () => (
             Healthcare & Career
       </Card.Header>
           <Card.Description>
-            It is a website which provides information on Healthcare and Career.
+          <p>
+            <h3>
+              It is a website which provides information on Healthcare and Career.
+              I worked as a php backend devloper of this app.
+            </h3>
+          </p>
+            
       </Card.Description>
         </Card.Content>
       </Card>
