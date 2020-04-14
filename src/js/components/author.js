@@ -25,8 +25,8 @@ const Author = () => (
       </Table.Row>
     </Table>
     <Header size='huge' color='blue'>Find me <Icon name='at' /></Header>
-    <a href='https://www.linkedin.com/in/dilip-maharjan-44421b87'><Icon size='huge' color='blue' name='linkedin' /></a>
-    <a href='https://github.com/dilipmaharjan'><Icon size='huge' color='blue' name='github' /></a>
+    <a href='https://www.linkedin.com/in/dilip-maharjan-44421b87' target="__blank"><Icon size='huge' color='blue' name='linkedin' /></a>
+    <a href='https://github.com/dilipmaharjan' target="__blank"><Icon size='huge' color='blue' name='github' /></a>
     <Header as="h1">Live Projects</Header>
     <Project />
     <Divider inverted />
