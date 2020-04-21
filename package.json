@@ -3,6 +3,9 @@
   "version": "0.1.0",
   "homepage": " https://dilipMaharjan.github.io/react-portfolio/",
   "private": true,
+  "engines": {
+    "node": "12.16.x"
+  },
   "dependencies": {
     "gh-pages": "^1.0.0",
     "react": "^16.0.0",
